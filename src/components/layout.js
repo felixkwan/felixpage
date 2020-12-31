@@ -7,23 +7,15 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-
-/** @jsx jsx */
-import { jsx } from "theme-ui"
-import "./layout.css"
+import { ThemeProvider, Box } from 'theme-ui'
+import theme from "../gatsby-plugin-theme-ui/index"
 
 const Layout = ({ children }) => {
 
   return (
     <>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
+      <Box>
+        <ThemeProvider theme={theme}>{children}</ThemeProvider>
         <footer style={{
           marginTop: `2rem`
         }}>
@@ -31,7 +23,7 @@ const Layout = ({ children }) => {
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
-      </div>
+      </Box>
     </>
   )
 }
