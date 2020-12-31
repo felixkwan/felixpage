@@ -3,8 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { Styled } from 'theme-ui'
+import { jsx, Styled } from "theme-ui"
 
 const Header = ({ siteTitle }) => (
   <header
