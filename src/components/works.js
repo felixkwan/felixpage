@@ -2,14 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 
 /** @jsx jsx */
-import { jsx, Styled, Box, Grid } from "theme-ui"
+import { jsx, Styled, Box, Grid, Container } from "theme-ui"
 
 const Works = () => {
 
   return (
     <>
       <section>
-        <div>
+        <Container>
               <Grid 
                 gap={2}
                 columns={[2]}
@@ -27,7 +27,7 @@ const Works = () => {
                     focuses: Live Green and Shape Safety.</p>
                 </Box>
               </Grid>
-        </div>
+        </Container>
       </section>
     </>
   )

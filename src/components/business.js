@@ -8,9 +8,14 @@ const Business = () => {
 
   return (
     <>
-      <section>
+      <section sx={{
+          pb: '2.5rem',
+      }}>
         <div>
-            <Box sx={{ width: '100%',}}>
+            <Box sx={{ 
+                mx: 'auto',
+                px: '2.5rem',
+            }}>
                 <Container>  
                     <Divider variants='styles.hr'></Divider>
                     <Grid
@@ -22,7 +27,7 @@ const Business = () => {
                                 color: 'black',
                             }}>Business</Styled.h2>
                         </Box>
-                        <Box bg='muted' sx={{mt: 2,}}>
+                        <Box bg='muted' sx={{mt: '0.75rem',}}>
                             <Styled.h4 sx={{
                                 color: 'black',
                             }}>Website and Graphic Design</Styled.h4>

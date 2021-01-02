@@ -6,7 +6,7 @@ export const theme = {
       text: "#333",
       black: "#2a2a2a",
       whiteBis: "#f2f2f2",
-      background: "#fff",
+      background: "#fafafa",
       primary: "#639",
       secondary: "#ff6347",
     },
@@ -17,8 +17,8 @@ export const theme = {
       monospace: 'Menlo, monospace',
     },
     fontWeights: {
-      body: 400,
-      heading: 700,
+      body: 300,
+      heading: 600,
       bold: 700,
     },
     lineHeights: {
@@ -77,7 +77,7 @@ export const theme = {
         mb: 2,
       },
       navlink: {
-        fontSize: 3,
+        fontSize: 2,
         color: 'inherit',
         textDecoration: 'none',
       }

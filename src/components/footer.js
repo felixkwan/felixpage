@@ -5,8 +5,8 @@ import React from "react"
 import { jsx, Styled } from "theme-ui"
 
 const Footer = () => (
-    <footer style={{
-        marginTop: `2rem`
+    <footer sx={{
+        py: '3.5rem',
       }}>
         © {new Date().getFullYear()}, Built with
         {` `}

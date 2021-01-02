@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
   <header as='nav'>
     <div sx={{
       mx: 'auto',
-      px: 3,
+      px: '2.5rem',
       py: 3,
       display: 'flex',
       alignItems: 'center'
