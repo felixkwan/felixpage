@@ -6,6 +6,8 @@ import Header from "../components/header"
 import Works from "../components/works"
 import About from "../components/about"
 import Footer from "../components/footer"
+import Business from "../components/business"
+import Contact from "../components/contact"
 
 import { Box, Flex, Styled } from "theme-ui"
 
@@ -43,7 +45,9 @@ const IndexPage = () => {
         </Box>
       
       <Works/>
+      <Business/>
       <About/>
+      <Contact/>
       <Footer/>
     </Layout>
     </>
