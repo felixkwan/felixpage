@@ -74,6 +74,11 @@ export const theme = {
         mt: 2,
         mb: 2,
       },
+      navlink: {
+        fontSize: 3,
+        color: 'inherit',
+        textDecoration: 'none',
+      }
     }
   }
 

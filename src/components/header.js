@@ -6,31 +6,59 @@ import React from "react"
 import { jsx, Styled } from "theme-ui"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <Styled.h1
-      >
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+  <header as='nav'>
+    <div sx={{
+      mx: 'auto',
+      px: 3,
+      py: 3,
+      display: 'flex',
+      alignItems: 'center'
+    }}>
+        <Link to='/' sx={{
+          variant: 'styles.navlink',
+          fontSize: 3,
+          py: 3,
+        }}>
           {siteTitle}
         </Link>
-      </Styled.h1>
+      <div sx={{ ml: 'auto' }}>
+        <Link to='/'
+          sx={{
+            variant: 'styles.navlink',
+            ml: 3,
+            py: 3,
+          }}
+        >
+          Works
+        </Link>
+        <Link to='/'
+          sx={{
+            variant: 'styles.navlink',
+            ml: 3,
+            py: 3,
+          }}
+        >
+          Business
+        </Link>
+        <Link to='/'
+          sx={{
+            variant: 'styles.navlink',
+            ml: 3,
+            py: 3,
+          }}
+        >
+          About
+        </Link>
+        <Link to='/'
+          sx={{
+            variant: 'styles.navlink',
+            ml: 3,
+            py: 3,
+          }}
+        >
+          Contact
+        </Link>
+      </div>
     </div>
   </header>
 )

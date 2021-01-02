@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 import Works from "../components/works"
 import About from "../components/about"
+import Footer from "../components/footer"
 
 import { Box, Flex, Styled } from "theme-ui"
 
@@ -31,12 +32,19 @@ const IndexPage = () => {
         }}>
           <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
           <Flex sx={{alignItems: 'center', pX: '4',}}>
-          <Styled.h1>We are a Hong Kong based design & development Team. We make web design, branding & Value.</Styled.h1>
+          <Styled.h1 sx={{
+              px: 2,
+              py: 2,
+              mx: 'auto',
+          }}>
+            We are a Hong Kong based design & development Team. We make web design, branding & Value.
+          </Styled.h1>
           </Flex>
         </Box>
       
       <Works/>
       <About/>
+      <Footer/>
     </Layout>
     </>
   )
