@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -25,6 +26,9 @@ const IndexPage = () => {
 
   return (
     <>
+      <Helmet>
+      </Helmet>
+
       <Layout>
         <Box sx={{
           display: 'flex',
