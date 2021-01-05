@@ -1,11 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-/** @jsx jsx */
-import { jsx } from "theme-ui"
 
 const Footer = () => (
-    <footer style={{
+    <footer className="footer" style={{
         paddingBottom: '2.5rem',
         paddingTop: '2.5rem'
       }}>

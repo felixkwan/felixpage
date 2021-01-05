@@ -1,5 +1,6 @@
 $font-color: #2a2a2a;
-$border-black: 3px solid #2a2a2a;
+$primary: #FD5825;
+$border-black: 4px solid #2a2a2a;
 
 html {
     -ms-text-size-adjust: 100%;
@@ -7,6 +8,11 @@ html {
     font: 112.5%/1.45em 'Press Start 2P', cursive;
     box-sizing: border-box;
     overflow-y: scroll;
+
+    ::selection { 
+        background: $primary;
+        color: white;
+    }
 
     body {
         margin: 0;
@@ -39,5 +45,12 @@ html {
 
     p {
         padding-top: 1rem;  
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-link {
+        display: none;
     }
 }

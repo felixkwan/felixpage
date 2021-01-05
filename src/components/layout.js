@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com/css?family=Press+Start+2P"
           rel="stylesheet"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Helmet>
         <div style={{
           background: 'transparent',
