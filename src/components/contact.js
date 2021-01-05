@@ -32,34 +32,28 @@ const Contact = () => {
         <div className="has-border-top">
         </div>
 
-        <div style={{
-          display: 'grid',
-          width: '100%',
-          gridTemplateColumns: '35% auto',
-          paddingTop: '1rem',
-        }}>
+        <div className="contact-form">
           <div className="muted"><h2>Contact</h2></div>
-          <div style={{
-            paddingTop: '.5rem',
-          }}>
-            <StyledSelectComponent/>
-
-            <div className="nes-field">
+          <div>
+            <div className="contact-item">
+              <StyledSelectComponent/>
+            </div>
+            <div className="contact-item">
               <label htmlFor="name_field">Your name</label>
               <input type="text" id="name_field" className="nes-input"/>
             </div>
 
-            <div className="nes-field">
+            <div className="contact-item">
               <label htmlFor="contact_field">Your email</label>
               <input type="text" id="name_field" className="nes-input"/>
             </div>
 
-            <div className="nes-field">
+            <div className="contact-item">
               <label htmlFor="company_field">Your company</label>
               <input type="text" id="name_field" className="nes-input" placeholder="Level Ninty Nine"/>
             </div>
 
-            <div className="nes-field">
+            <div className="contact-item">
               <label htmlFor="textarea_field">Message</label>
               <textarea id="textarea_field" class="nes-textarea"></textarea>
             </div>

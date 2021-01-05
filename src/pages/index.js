@@ -36,6 +36,9 @@ const IndexPage = () => {
           <div style={{
             paddingRight: '2.5rem',
             paddingLeft: '2.5rem',
+            display: 'flex',
+            flexWrap: 'wrap',
+            flexShrink: 1,
           }}>
             <h1 className="heading">
               We are a Hong Kong based design & development Team. We make web design, branding & Value.
