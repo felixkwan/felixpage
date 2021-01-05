@@ -11,7 +11,7 @@ html {
     body {
         margin: 0;
         padding: 0;
-        line-height: 1.2;
+        line-height: 1.6;
     }
 
     a {
@@ -22,10 +22,6 @@ html {
             color: $font-color;
             text-decoration: none;
         }
-    }
-
-    p {
-        line-height: 1.4;
     }
 }
 
@@ -39,5 +35,9 @@ html {
 
     h3,h4 {
         padding-top: 1rem;
+    }
+
+    p {
+        padding-top: 1rem;  
     }
 }

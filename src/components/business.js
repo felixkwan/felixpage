@@ -6,8 +6,9 @@ const Business = () => {
   return (
     <>
       <section id="business" style={{
-          paddingLeft: '1.25rem',
-          paddingRight: '1.25rem',
+          paddingLeft: '2.5rem',
+          paddingRight: '2.5rem',
+          paddingBottom: '8rem',
       }}>
         <div className="has-border-top">
             <h2>Expertise</h2>
@@ -15,10 +16,10 @@ const Business = () => {
         <div style={{
             display: 'grid',
             width: '100%',
-            gridTemplateColumns: '25% auto',
+            gridTemplateColumns: '35% auto',
         }}>
             <div className="has-border-top" style={{
-                marginRight: '1.25rem',
+                marginRight: '1.5rem',
             }}>
                 <h4>Design</h4>
             </div>
