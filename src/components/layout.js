@@ -7,7 +7,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { Box } from 'theme-ui'
 import { Helmet } from "react-helmet"
 
 const Layout = ({ children }) => {
@@ -20,9 +19,13 @@ const Layout = ({ children }) => {
           rel="stylesheet"
         />
       </Helmet>
-        <Box>
-          <div>{children}</div>
-        </Box>
+        <div style={{
+          background: 'transparent',
+          maxWidth: '1440px',
+          minWidth: '375px',
+        }}>
+          {children}
+        </div>
     </>
   )
 }

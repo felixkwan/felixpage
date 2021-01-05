@@ -5,11 +5,29 @@ const Business = () => {
 
   return (
     <>
-      <section sx={{
-          pb: '2.5rem',
+      <section id="business" style={{
+          paddingLeft: '1.25rem',
+          paddingRight: '1.25rem',
       }}>
-        <div>
-            Business
+        <div className="has-border-top">
+            <h2>Expertise</h2>
+        </div>
+        <div style={{
+            display: 'grid',
+            width: '100%',
+            gridTemplateColumns: '25% auto',
+        }}>
+            <div className="has-border-top" style={{
+                marginRight: '1.25rem',
+            }}>
+                <h4>Design</h4>
+            </div>
+            <div className="has-border-top">
+                <h3>Website and Graphic Design</h3>
+                <p>
+
+                </p>
+            </div>
         </div>
       </section>
     </>

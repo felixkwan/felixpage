@@ -5,8 +5,9 @@ import { Link } from "gatsby"
 import { jsx } from "theme-ui"
 
 const Footer = () => (
-    <footer sx={{
-        py: '3.5rem',
+    <footer style={{
+        paddingBottom: '2.5rem',
+        paddingTop: '2.5rem'
       }}>
         © {new Date().getFullYear()}, Built with
         {` `}

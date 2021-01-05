@@ -7,27 +7,43 @@ const Header = ({ siteTitle }) => (
     <div style={{
       display: 'flex',
       alignItems: 'center',
-      padding: '1.25rem',
+      marginLeft: '2rem',
+      marginRight: '2rem',
+      paddingTop: '2rem',
+      paddingBottom: '2rem',
+      borderBottomWidth: '3px',
+      borderBottomStyle: 'solid',
+      borderBottomColor: '#2a2a2a',
     }}>
-        <Link to='/'>
+        <Link to='/' style={{
+          fontSize: '1.25rem',
+          letterSpacing: '-2px',
+        }}>
           {siteTitle}
         </Link>
       <div style={{
         marginLeft: 'auto',
       }}>
-        <Link to='/'
+        <Link to='/' style={{
+          paddingRight: '.25rem',
+          paddingLeft: '.25rem',
+          marginRight: ' .25rem',
+        }}
         >
           Works
         </Link>
-        <Link to='/'
-        >
-          Business
-        </Link>
-        <Link to='/'
+        <Link to='/' style={{
+          paddingRight: '.25rem',
+          paddingLeft: '.25rem',
+          marginRight: ' .25rem',
+        }}
         >
           About
         </Link>
-        <Link to='/'
+        <Link to='/' style={{
+          paddingRight: '.25rem',
+          paddingLeft: '.25rem',
+        }}
         >
           Contact
         </Link>
