@@ -1,8 +1,8 @@
-import { Link } from "gatsby"
 import React from "react"
+import { Link } from "gatsby"
 
 /** @jsx jsx */
-import { jsx, Styled } from "theme-ui"
+import { jsx } from "theme-ui"
 
 const Footer = () => (
     <footer sx={{

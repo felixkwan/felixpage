@@ -1,6 +1,5 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -9,8 +8,7 @@ import About from "../components/about"
 import Footer from "../components/footer"
 import Business from "../components/business"
 import Contact from "../components/contact"
-
-import { Box, Flex, Styled, Container} from "theme-ui"
+import { Box } from "theme-ui"
 
 const IndexPage = () => {
 
@@ -26,9 +24,6 @@ const IndexPage = () => {
 
   return (
     <>
-      <Helmet>
-      </Helmet>
-
       <Layout>
         <Box sx={{
           display: 'flex',
@@ -37,7 +32,7 @@ const IndexPage = () => {
           minHeight: '100vh',
         }}>
           <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-          <Container
+          <div
             p={4}
             bg='muted'
             >
@@ -46,15 +41,15 @@ const IndexPage = () => {
                 maxWidth: '720px',
                 pt: '2.5rem',
               }}>
-                <Styled.h1 sx={{
+                <h1 sx={{
                   px: 2,
                   py: 2,
                   mx: 'auto',
                 }}>
                   We are a Hong Kong based design & development Team. We make web design, branding & Value.
-                </Styled.h1>
+                </h1>
               </Box>
-          </Container>
+          </div>
         </Box>
       <Business/>
       <Works/>

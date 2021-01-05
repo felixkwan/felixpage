@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 /** @jsx jsx */
 import { jsx, Styled, Box, Grid, Container } from "theme-ui"

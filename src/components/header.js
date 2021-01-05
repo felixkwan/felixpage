@@ -1,60 +1,33 @@
+import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
-
-/** @jsx jsx */
-import { jsx, Styled } from "theme-ui"
 
 const Header = ({ siteTitle }) => (
   <header as='nav'>
-    <div sx={{
-      mx: 'auto',
-      px: '2.5rem',
-      py: 3,
+    <div style={{
       display: 'flex',
-      alignItems: 'center'
+      alignItems: 'center',
+      padding: '1.25rem',
     }}>
-        <Link to='/' sx={{
-          variant: 'styles.navlink',
-          fontSize: 3,
-          py: 3,
-        }}>
+        <Link to='/'>
           {siteTitle}
         </Link>
-      <div sx={{ ml: 'auto' }}>
+      <div style={{
+        marginLeft: 'auto',
+      }}>
         <Link to='/'
-          sx={{
-            variant: 'styles.navlink',
-            ml: 3,
-            py: 3,
-          }}
         >
           Works
         </Link>
         <Link to='/'
-          sx={{
-            variant: 'styles.navlink',
-            ml: 3,
-            py: 3,
-          }}
         >
           Business
         </Link>
         <Link to='/'
-          sx={{
-            variant: 'styles.navlink',
-            ml: 3,
-            py: 3,
-          }}
         >
           About
         </Link>
         <Link to='/'
-          sx={{
-            variant: 'styles.navlink',
-            ml: 3,
-            py: 3,
-          }}
         >
           Contact
         </Link>

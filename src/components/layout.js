@@ -7,16 +7,22 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { ThemeProvider, Box } from 'theme-ui'
-import theme from "../gatsby-plugin-theme-ui/index"
+import { Box } from 'theme-ui'
+import { Helmet } from "react-helmet"
 
 const Layout = ({ children }) => {
 
   return (
     <>
-      <Box>
-        <ThemeProvider theme={theme}>{children}</ThemeProvider>
-      </Box>
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+          rel="stylesheet"
+        />
+      </Helmet>
+        <Box>
+          <div>{children}</div>
+        </Box>
     </>
   )
 }
