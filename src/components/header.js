@@ -10,12 +10,12 @@ const Header = ({ siteTitle }) => (
       paddingTop: '2rem',
       paddingBottom: '2rem',
       background: 'transparent',
+      maxWidth: '1220px',
+      margin: '0 auto',
     }}>
       <div style={{
         display: 'flex',
         alignItems: 'center',
-        maxWidth: '1220px',
-        margin: '0 auto',
       }}>
           <Link to='/' style={{
             fontSize: '1.25rem',
@@ -50,6 +50,14 @@ const Header = ({ siteTitle }) => (
             Contact
           </Link>
         </div>
+
+        <div className="is-hidden-widescreen" style={{
+          marginLeft: 'auto',
+          padding: '0 .25rem',
+        }}>
+          <button class="nes-btn">Menu</button>
+        </div>
+
       </div>
     </nav>
   </header>

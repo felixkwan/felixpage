@@ -13,6 +13,7 @@ const Works = () => {
           flexWrap: 'wrap',
           flexDirection: 'row',
           justifyContent: 'space-between',
+          paddingBottom: '5.5em',
         }}>
           <div className="muted"></div>
           <div style={{
@@ -36,6 +37,7 @@ const Works = () => {
           flexWrap: 'wrap',
           flexDirection: 'row',
           justifyContent: 'space-between',
+          paddingBottom: '5.5em',
         }}>
           <div className="muted"></div>
           <div style={{
@@ -43,7 +45,7 @@ const Works = () => {
             paddingRight: '1.25rem',
           }}>
             <Container className="with-title is-rounded">
-              <p className="title">UI, UX Design</p>
+              <p className="title">App Development</p>
               <h2 style={{
                   color: 'primary',
               }}>SoTime</h2>

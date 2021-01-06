@@ -32,24 +32,28 @@ const IndexPage = () => {
           // set this to `minHeight: '100vh'` for full viewport height
           minHeight: '100vh',
           gridTemplateRows: 'fit-content auto',
+          background: '#f9f9f9',
         }}>
           <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
           <div style={{
-            paddingRight: '2.5rem',
-            paddingLeft: '2.5rem',
           }}>
             <div style={{
+              paddingRight: '2.5rem',
+              paddingLeft: '2.5rem',
               maxWidth: '1220px',
               margin: '0 auto',
-              display: 'flex',
-              flexWrap: 'wrap',
-              flexShrink: 1,
             }}>
-              <h1 className="heading" style={{
-                maxWidth: '768px',
+              <div style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                flexShrink: 1,
               }}>
-                We are a Hong Kong based design & development Team. We make web design, branding & Value.
-              </h1>
+                <h1 className="heading" style={{
+                  maxWidth: '768px',
+                }}>
+                  We are a Hong Kong based design & development Team. We make web design, branding & Value.
+                </h1>
+              </div>
             </div>
           </div>
         </div>

@@ -53,6 +53,7 @@ const About = () => {
                 }}>
                     <div className="has-border-top-thin is-hidden-widescreen mb-2-touch">
                         <h5>UI Designer, <br/>Front-End Developer, <br/>Project Manager</h5>
+                        <h3>Level:5</h3>
                     </div>
                     <div className="has-border-top mr-2-widescreen">
                         <h4>Felix Kwan</h4>
@@ -80,6 +81,7 @@ const About = () => {
                     </div>
                     <div className="has-border-top-thin is-hidden-touch">
                         <h5>UI Designer, <br/>Front-End Developer, <br/>Project Manager</h5>
+                        <h3>Level:5</h3>
                         <div className="has-border-top-thin" style={{
                             paddingTop: '1.5rem',
                             marginTop: '1.5rem',
@@ -96,11 +98,10 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="grid-6-4" style={{
-                    marginBottom: '5.5rem',
-                }}>
+                <div className="grid-6-4">
                     <div className="has-border-top-thin is-hidden-widescreen mb-2-touch">
                         <h5>Full Stack Engineer</h5>
+                        <h3>Level:98</h3>
                     </div>
                     <div className="has-border-top mr-2-widescreen">
                         <h4>Elvis Chan</h4>
@@ -128,6 +129,7 @@ const About = () => {
                     </div>
                     <div className="has-border-top-thin is-hidden-touch">
                         <h5>Full Stack Engineer</h5>
+                        <h3>Level:98</h3>
                         <div className="has-border-top-thin" style={{
                             paddingTop: '1.5rem',
                             marginTop: '1.5rem',
