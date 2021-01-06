@@ -23,16 +23,20 @@ const Contact = () => {
 
   return (
     <>
+      <div style={{
+          maxWidth: '1220px',
+          margin: '0 auto',
+      }}>
       <section id="contact" style={{
         paddingRight: '2.5rem',
         paddingLeft: '2.5rem',
-        paddingBottom: '5rem',
+        paddingBottom: '6.5rem',
       }}>
 
         <div className="has-border-top">
         </div>
 
-        <div className="contact-form">
+        <div className="contact-form grid-4-6">
           <div className="muted"><h2>Contact</h2></div>
           <div>
             <div className="contact-item">
@@ -67,6 +71,7 @@ const Contact = () => {
         </div>
         
       </section>
+      </div>
     </>
   )
 }

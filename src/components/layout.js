@@ -22,7 +22,6 @@ const Layout = ({ children }) => {
       </Helmet>
         <div style={{
           background: 'transparent',
-          maxWidth: '1440px',
           minWidth: '375px',
         }}>
           {children}

@@ -7,15 +7,15 @@ const Header = ({ siteTitle }) => (
     <nav style={{
       paddingLeft: '2rem',
       paddingRight: '2rem',
+      paddingTop: '2rem',
+      paddingBottom: '2rem',
+      background: 'transparent',
     }}>
       <div style={{
         display: 'flex',
         alignItems: 'center',
-        paddingTop: '2rem',
-        paddingBottom: '2rem',
-        borderBottomWidth: '3px',
-        borderBottomStyle: 'solid',
-        borderBottomColor: '#2a2a2a',
+        maxWidth: '1220px',
+        margin: '0 auto',
       }}>
           <Link to='/' style={{
             fontSize: '1.25rem',
@@ -23,13 +23,13 @@ const Header = ({ siteTitle }) => (
           }}>
             {siteTitle}
           </Link>
-        <div className="navbar-link" style={{
+        <div className="navbar-link is-hidden-touch" style={{
           marginLeft: 'auto',
         }}>
           <Link to='/' style={{
             paddingRight: '.25rem',
             paddingLeft: '.25rem',
-            marginRight: ' .25rem',
+            marginRight: ' 1rem',
           }}
           >
             Works
@@ -37,14 +37,14 @@ const Header = ({ siteTitle }) => (
           <Link to='/' style={{
             paddingRight: '.25rem',
             paddingLeft: '.25rem',
-            marginRight: ' .25rem',
+            marginRight: ' .5rem',
           }}
           >
             About
           </Link>
           <Link to='/' style={{
             paddingRight: '.25rem',
-            paddingLeft: '.25rem',
+            paddingLeft: '.5rem',
           }}
           >
             Contact
