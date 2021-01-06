@@ -1,0 +1,164 @@
+$font-color: #2a2a2a;
+$primary: #FD5825;
+$border-black: 4px solid #2a2a2a;
+$border-thin: 2px solid #2a2a2a;
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+
+    ::selection { 
+        background: $primary;
+        color: white;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+
+    a {
+        text-decoration: none;
+        color: $font-color;
+
+        &:hover {
+            color: $font-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.has-border-top {
+    border-top: $border-black;
+
+    h2 {
+        padding-top: 1.5rem;
+        margin-bottom: 1.7rem;
+    }
+
+    h3, h4, h5 {
+        padding-top: 1rem;
+    }
+
+    p {
+        padding-top: 1rem;  
+    }
+}
+
+.has-border-top-thin {
+    border-top: $border-thin;
+
+    h2 {
+        padding-top: 1.5rem;
+        margin-bottom: 1.7rem;
+    }
+
+    h3, h4, h5 {
+        padding-top: 1rem;
+    }
+
+    p {
+        padding-top: 1rem;  
+    }
+}
+
+.grid-1-1 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: calc(50% - 1.25rem) auto;
+    gap: 2.5rem;
+}
+
+.grid-4-6 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 35% auto;
+    padding-top: 1rem,
+}
+
+.mr-2-widescreen {
+    margin-right: 1.5rem;
+}
+
+.grid-6-4 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 65% auto;
+    padding-top: 1rem;
+}
+
+.contact-item {
+    padding: .75rem 0;
+}
+
+.nes-input, .nes-textarea {
+    margin: 4px 0;
+}
+
+.nes-btn {
+    margin: 4px 0;
+}
+
+.nes-progress {
+    height: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .is-hidden-widescreen {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 1.65rem;
+    }
+
+    h2 {
+        font-size: 1.45rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: .85rem;
+    }
+
+    .is-hidden-touch {
+        display: none;
+    }
+
+    .has-border-top {
+        h4 {
+            padding-bottom: .5rem;
+        }
+    }
+
+    .grid-4-6,
+    .grid-6-4,
+    .grid-1-1 {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: fit-content auto;
+    }
+
+    .mr-2-widescreen {
+        margin-right: 0;
+    }
+
+    .mb-2-touch {
+        margin-bottom: 1.5rem;
+    }
+}
