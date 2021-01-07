@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 import PropTypes from "prop-types"
 
 const Header = ({ siteTitle }) => (
@@ -20,35 +21,28 @@ const Header = ({ siteTitle }) => (
           <Link to='/' style={{
             fontSize: '1.25rem',
             letterSpacing: '-2px',
+            padding: '.5rem',
           }}>
             {siteTitle}
           </Link>
         <div className="navbar-link is-hidden-touch" style={{
           marginLeft: 'auto',
         }}>
-          <Link to='/' style={{
-            paddingRight: '.25rem',
-            paddingLeft: '.25rem',
-            marginRight: ' 1rem',
-          }}
+          <AnchorLink to='/#works' title="works"
+            className="navbar-item"
           >
             Works
-          </Link>
-          <Link to='/' style={{
-            paddingRight: '.25rem',
-            paddingLeft: '.25rem',
-            marginRight: ' .5rem',
-          }}
+          </AnchorLink>
+          <AnchorLink to='/#about' title="about"
+            className="navbar-item"
           >
             About
-          </Link>
-          <Link to='/' style={{
-            paddingRight: '.25rem',
-            paddingLeft: '.5rem',
-          }}
+          </AnchorLink>
+          <AnchorLink to='/#contact' title="contact"
+            className="navbar-item"
           >
             Contact
-          </Link>
+          </AnchorLink>
         </div>
 
         <div className="is-hidden-widescreen" style={{

@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-anchor-links`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

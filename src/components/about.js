@@ -11,6 +11,7 @@ const About = () => {
             margin: '0 auto',
         }}>
             <section id="about" style={{
+            paddingTop:' 1.5rem',
             paddingLeft: '2.5rem',
             paddingRight: '2.5rem',
             paddingBottom: '8rem',

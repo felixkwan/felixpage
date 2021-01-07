@@ -67,6 +67,15 @@ html {
     }
 }
 
+.navbar-item {
+    padding: '0 .5rem';
+    margin-right: 1.5rem;
+
+    :last-child {
+        margin-right: 0;
+    }
+}
+
 .grid-1-1 {
     display: grid;
     width: 100%;
