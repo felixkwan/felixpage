@@ -56,11 +56,13 @@ const About = () => {
                         <h3>Level:5</h3>
                     </div>
                     <div className="has-border-top mr-2-widescreen">
-                        <h4>Felix Kwan</h4>
-                        <p>
+                        <h4 style={{
+                            paddingBottom: '.5rem',
+                        }}>Felix Kwan</h4>
+                        <p className="nes-balloon from-left nes-pointer">
                             People are increasingly joining digital lifestyles. They need digital solutions that inspire ideas and create value. Find us. We will provide you. \('x')/
                         </p>
-                        <div className="divider"></div>
+                        <div className="muted"></div>
                         <h5>Creativity</h5>
                         <progress className="nes-progress is-primary" value="80" max="100"></progress>
                         <h5>UI Development</h5>
@@ -104,11 +106,13 @@ const About = () => {
                         <h3>Level:98</h3>
                     </div>
                     <div className="has-border-top mr-2-widescreen">
-                        <h4>Elvis Chan</h4>
-                        <p>
+                        <h4 style={{
+                            paddingBottom: '.5rem',
+                        }}>Elvis Chan</h4>
+                        <p className="nes-balloon from-left nes-pointer">
                             Our digital solutions look smell good. Whether you’re a large company or an  individual, levelfive digital products are well designed for work and playful.
                         </p>
-                        <div className="diviver"></div>
+                        <div className="muted"></div>
                         <h5>Security</h5>
                         <progress className="nes-progress is-primary" value="100" max="100"></progress>
                         <h5>Problem Solving</h5>

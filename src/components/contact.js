@@ -49,17 +49,17 @@ const Contact = () => {
 
             <div className="contact-item">
               <label htmlFor="contact_field">Your email</label>
-              <input type="text" id="name_field" className="nes-input"/>
+              <input type="text" id="contact_field" className="nes-input"/>
             </div>
 
             <div className="contact-item">
               <label htmlFor="company_field">Your company</label>
-              <input type="text" id="name_field" className="nes-input" placeholder="Level Ninty Nine"/>
+              <input type="text" id="company_field" className="nes-input" placeholder="Level Ninty Nine"/>
             </div>
 
             <div className="contact-item">
               <label htmlFor="textarea_field">Message</label>
-              <textarea id="textarea_field" class="nes-textarea"></textarea>
+              <textarea id="textarea_field" className="nes-textarea"></textarea>
             </div>
 
             <button style={{
