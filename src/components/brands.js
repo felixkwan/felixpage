@@ -24,10 +24,11 @@ const Brands = () => {
                 <div className="grid-1-1">
                     <div className="brand-item">
                         <img src={logo2} alt="logo2"
-                        objectFit="cover"
-                        objectPosition="50% 50%"
-                        width="100%"
-                        />
+                            style={{
+                                objectFit: 'cover',
+                                objectPosition: '50% 50%',
+                                width: '100%',
+                            }}/>
                         <div className="brand-title" style={{
                             padding: '1.5rem 0',
                             display: 'flex',
@@ -45,10 +46,11 @@ const Brands = () => {
                     
                     <div className="brand-item">
                         <img src={logo3} alt="logo2"
-                        objectFit="cover"
-                        objectPosition="50% 50%"
-                        width="100%"
-                        />
+                            style={{
+                            objectFit: 'cover',
+                            objectPosition: '50% 50%',
+                            width: '100%',
+                        }}/>
                         <div className="brand-title" style={{
                             padding: '1.5rem 0',
                             display: 'flex',

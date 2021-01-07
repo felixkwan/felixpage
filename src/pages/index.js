@@ -1,5 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { Reveal, Tween } from 'react-gsap';
+import { gsap } from 'gsap';
+import { TextPlugin } from 'gsap/TextPlugin';
 
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -11,6 +14,8 @@ import Business from "../components/business"
 import Contact from "../components/contact"
 
 import "./main.scss"
+
+gsap.registerPlugin(TextPlugin);
 
 const IndexPage = () => {
 
@@ -34,6 +39,7 @@ const IndexPage = () => {
           gridTemplateRows: 'fit-content auto',
           background: '#f9f9f9',
         }}>
+          
           <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
           <div style={{
           }}>
@@ -48,11 +54,21 @@ const IndexPage = () => {
                 flexWrap: 'wrap',
                 flexShrink: 1,
               }}>
-                <h1 className="heading" style={{
-                  maxWidth: '768px',
-                }}>
-                  We are a Hong Kong based design & development Team. We make web design, branding & Value.
-                </h1>
+
+                <Reveal repeat>
+                  <Tween from={{ text: 'vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.'}}
+                   to={{ text: 'We are a Hong Kong based design & development Team. We make web design, branding & Value.' }}
+                   ease={x =>
+                    x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
+                  }
+                   duration={1.75}>
+                    <span className="index-heading" style={{
+                      maxWidth: '768px',
+                    }}>
+                    </span>
+                  </Tween>
+                </Reveal>
+                
               </div>
             </div>
           </div>
@@ -65,7 +81,7 @@ const IndexPage = () => {
       <Footer/>
     </Layout>
     </>
-  )
+  ) 
 }
 
 export default IndexPage

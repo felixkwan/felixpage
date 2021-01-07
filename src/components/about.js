@@ -16,32 +16,34 @@ const About = () => {
             paddingRight: '2.5rem',
             paddingBottom: '8rem',
             }}>
-                <div className="has-border-top">
-                    <h2>Vision</h2>
-                </div>
-                <div className="grid-4-6" style={{
-                    marginBottom: '2.5rem',
-                }}>
-                    <div className="has-border-top-thin mr-2-widescreen mb-2-touch">
-                        <h4>Belief and Crafting</h4>
-                    </div>
+                <div className="about-vision">
                     <div className="has-border-top">
-                        <p>
-                            We believe in the magic of think different. It is always helpful to explore unexpected answers.We are interested in tech, culture and crafting table. 
-                        </p>
+                        <h2>Vision</h2>
                     </div>
-                </div>
+                    <div className="grid-4-6" style={{
+                        marginBottom: '2.5rem',
+                    }}>
+                        <div className="has-border-top-thin mr-2-widescreen mb-2-touch">
+                            <h4>Belief and Crafting</h4>
+                        </div>
+                        <div className="has-border-top-thin">
+                            <p>
+                                We believe in the magic of think different. It is always helpful to explore unexpected answers.We are interested in tech, culture and crafting table. 
+                            </p>
+                        </div>
+                    </div>
 
-                <div className="grid-4-6" style={{
-                    marginBottom: '5.5rem',
-                }}>
-                    <div className="has-border-top-thin mr-2-widescreen mb-2-touch">
-                        <h4>Make Great Together</h4>
-                    </div>
-                    <div className="has-border-top">
-                        <p>
-                            Assemble a team of passionate designer and developers with commitment to search for excellence in design. Together with our clients, we shape the digital experience.
-                        </p>
+                    <div className="grid-4-6" style={{
+                        marginBottom: '5.5rem',
+                    }}>
+                        <div className="has-border-top-thin mr-2-widescreen mb-2-touch">
+                            <h4>Make Great Together</h4>
+                        </div>
+                        <div className="has-border-top-thin">
+                            <p>
+                                Assemble a team of passionate designer and developers with commitment to search for excellence in design. Together with our clients, we shape the digital experience.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -56,7 +58,7 @@ const About = () => {
                         <h5>UI Designer, <br/>Front-End Developer, <br/>Project Manager</h5>
                         <h3>Level:5</h3>
                     </div>
-                    <div className="has-border-top mr-2-widescreen">
+                    <div className="has-border-top-thin mr-2-widescreen">
                         <h4 style={{
                             paddingBottom: '.5rem',
                         }}>Felix Kwan</h4>
@@ -73,12 +75,12 @@ const About = () => {
                             marginTop: '1.5rem',
                         }}>
                         <Container className="with-title">
-                            <p class="title">Character Rank</p>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star is-transparent"></i>
-                            <i class="nes-icon is-medium star is-transparent"></i>
+                            <p className="title">Character Rank</p>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star is-transparent"></i>
+                            <i className="nes-icon is-medium star is-transparent"></i>
                         </Container>
                         </div>
                     </div>
@@ -90,12 +92,12 @@ const About = () => {
                             marginTop: '1.5rem',
                         }}>
                         <Container className="with-title">
-                            <p class="title">Character Rank</p>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star is-transparent"></i>
-                            <i class="nes-icon is-medium star is-transparent"></i>
+                            <p className="title">Character Rank</p>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star is-transparent"></i>
+                            <i className="nes-icon is-medium star is-transparent"></i>
                         </Container>
                         </div>
                     </div>
@@ -106,7 +108,7 @@ const About = () => {
                         <h5>Full Stack Engineer</h5>
                         <h3>Level:98</h3>
                     </div>
-                    <div className="has-border-top mr-2-widescreen">
+                    <div className="has-border-top-thin mr-2-widescreen">
                         <h4 style={{
                             paddingBottom: '.5rem',
                         }}>Elvis Chan</h4>
@@ -123,12 +125,12 @@ const About = () => {
                             marginTop: '1.5rem',
                         }}>
                         <Container className="with-title">
-                            <p class="title">Character Rank</p>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
+                            <p className="title">Character Rank</p>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
                         </Container>
                         </div>
                     </div>
@@ -140,12 +142,12 @@ const About = () => {
                             marginTop: '1.5rem',
                         }}>
                         <Container className="with-title">
-                            <p class="title">Character Rank</p>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
-                            <i class="nes-icon is-medium star"></i>
+                            <p className="title">Character Rank</p>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
+                            <i className="nes-icon is-medium star"></i>
                         </Container>
                         </div>
                     </div>

@@ -28,7 +28,7 @@ const Footer = () => (
               }}>Gatsby</a>
             </div>
             <div>
-              <a href="https://levelfivedesign.github.io/"><i class="nes-icon github"></i></a>
+              <a href="https://levelfivedesign.github.io/"><i className="nes-icon github"></i></a>
             </div>
         </footer>
       </div>

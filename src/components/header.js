@@ -49,7 +49,7 @@ const Header = ({ siteTitle }) => (
           marginLeft: 'auto',
           padding: '0 .25rem',
         }}>
-          <button class="nes-btn">Menu</button>
+          <button className="nes-btn">Menu</button>
         </div>
 
       </div>

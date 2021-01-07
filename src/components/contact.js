@@ -60,7 +60,7 @@ const Contact = () => {
 
             <div className="contact-item">
               <label htmlFor="textarea_field">Message</label>
-              <textarea id="textarea_field" className="nes-textarea"></textarea>
+              <textarea id="textarea_field" className="nes-textarea" style={{ height: '180px', }}></textarea>
             </div>
 
             <button style={{
