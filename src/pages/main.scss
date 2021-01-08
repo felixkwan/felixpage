@@ -37,6 +37,12 @@ html {
     }
 }
 
+.wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+}
+
 .has-border-top {
     border-top: $border-black;
 
@@ -119,6 +125,10 @@ html {
     padding-top: 1rem;
 }
 
+.work-header {
+    max-height: 520px;
+}
+
 .contact-item {
     padding: .75rem 0;
 }
@@ -150,9 +160,47 @@ html {
     }
 }
 
-@media only screen and (min-width: 1221px) {
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    html {
+        .index-heading {
+            font-size: 3.5rem;
+        }
+    }
+
+    .work-header {
+        max-height: 600px;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    html {
+        .index-heading {
+            font-size: 4rem;
+        }
+    }
+
     .wrapper {
-        max-width: 1220px;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 0 2.5rem;
+    }
+
+    .work-header {
+        max-height: 720px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    html {
+        .index-heading {
+            font-size: 4.5rem;
+        }
+    }
+
+    .wrapper {
+        max-width: 1920px;
         margin: 0 auto;
         padding: 0 2.5rem;
     }

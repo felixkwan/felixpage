@@ -23,14 +23,9 @@ const Contact = () => {
 
   return (
     <>
-      <div style={{
-          maxWidth: '1220px',
-          margin: '0 auto',
-      }}>
+      <div className="wrapper">
       <section id="contact" style={{
         paddingTop:' 1.5rem',
-        paddingRight: '2.5rem',
-        paddingLeft: '2.5rem',
         paddingBottom: '6.5rem',
       }}>
 

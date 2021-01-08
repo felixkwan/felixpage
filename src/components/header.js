@@ -12,14 +12,11 @@ const Header = () => {
   return(
   <>
     <header>
-      <nav style={{
-        paddingLeft: '2rem',
-        paddingRight: '2rem',
+      <nav className="wrapper" style={{
         paddingTop: '2rem',
         paddingBottom: '2rem',
         background: 'transparent',
-        maxWidth: '1220px',
-        margin: '0 auto',
+        
       }}>
         <div style={{
           display: 'flex',

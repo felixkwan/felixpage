@@ -5,12 +5,8 @@ const Business = () => {
 
   return (
     <>
-      <div style={{
-        paddingLeft: '2.5rem',
-        paddingRight: '2.5rem',
+      <div className="wrapper" style={{
         paddingTop: '5.5rem',
-        maxWidth: '1220px',
-        margin: '0 auto',
       }}>
         <div style={{
         }}>

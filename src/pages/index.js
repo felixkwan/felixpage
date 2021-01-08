@@ -45,12 +45,7 @@ const IndexPage = () => {
           <Header/>
           <div style={{
           }}>
-            <div style={{
-              paddingRight: '2.5rem',
-              paddingLeft: '2.5rem',
-              maxWidth: '1220px',
-              margin: '0 auto',
-            }}>
+            <div className="wrapper">
               <div style={{
                 display: 'flex',
                 flexWrap: 'wrap',
@@ -66,7 +61,6 @@ const IndexPage = () => {
                    duration={1.75}
                    delay={1.5}>
                     <span className="index-heading" style={{
-                      maxWidth: '768px',
                       fontWeight: 700,
                     }}>
                     </span>
