@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => {
               letterSpacing: '-2px',
               padding: '.5rem',
             }}>
-              <Reveal>
+              <Reveal repeat>
                 <Tween from={{ text: '//////'}}
                  to={{ text: 'levelfive' }}
                  ease={x =>
@@ -49,7 +49,7 @@ const Header = ({ siteTitle }) => {
             <AnchorLink to='/#works' title="works"
               className="navbar-item"
             >
-              <Reveal>
+              <Reveal repeat>
                 <Tween from={{ text: '//////'}}
                  to={{ text: 'Work' }}
                  ease={x =>
@@ -64,7 +64,7 @@ const Header = ({ siteTitle }) => {
             <AnchorLink to='/#about' title="about"
               className="navbar-item"
             >
-              <Reveal>
+              <Reveal repeat>
                 <Tween from={{ text: '//////'}}
                  to={{ text: 'About' }}
                  ease={x =>
@@ -79,7 +79,7 @@ const Header = ({ siteTitle }) => {
             <AnchorLink to='/#contact' title="contact"
               className="navbar-item"
             >
-              <Reveal>
+              <Reveal repeat>
                 <Tween from={{ text: '//////'}}
                  to={{ text: 'Contact' }}
                  ease={x =>

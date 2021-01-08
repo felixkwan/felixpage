@@ -3,6 +3,8 @@ import {Container} from "nes-react"
 import groundGif from "../images/pixel-ground.gif"
 import mgtGif from "../images/pixel-mgt.gif"
 import sotimeGif from "../images/pixel-sotime.gif"
+import { Reveal } from 'react-gsap';
+import FadeIn from "../components/fadeIn"
 
 const Works = () => {
 
@@ -11,8 +13,11 @@ const Works = () => {
       <div style={{
       }}>
         <section id="works" style={{
-          paddingBottom: '2.5rem',
+          paddingTop: '3rem',
+          paddingBottom: '1rem',
         }}>
+          <Reveal trigger={<div className="is-reveal" />}>
+          <FadeIn>
           <div style={{
             maxHeight: '520px',
             overflow: 'hidden',
@@ -28,6 +33,8 @@ const Works = () => {
               }}
             />
           </div>
+          </FadeIn>
+          </Reveal>
           <div className="grid-works" style={{
             maxWidth: '1220px',
             padding: '0 2.5rem',
