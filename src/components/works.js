@@ -5,13 +5,14 @@ import mgtGif from "../images/pixel-mgt.gif"
 import sotimeGif from "../images/pixel-sotime.gif"
 import { Reveal } from 'react-gsap';
 import SlideLeft from "../components/slideLeft"
+import SlideRight from "../components/slideRight"
+import FadeInTop from "../components/fadeInTop"
 
 const Works = () => {
 
   return (
     <>
-      <div style={{
-      }}>
+      <div className="wrapper">
         <section id="works" style={{
           paddingTop: '3rem',
           paddingBottom: '1rem',
@@ -23,6 +24,7 @@ const Works = () => {
             display: 'flex',
             flexDirection: 'row',
             position: 'relative',
+            background: '#f7f7f7',
           }} className="work-header">
             <Reveal repeat>
             <SlideLeft>
@@ -42,11 +44,13 @@ const Works = () => {
             padding: '0 2.5rem',
           }}>
             <div className="muted"></div>
+            <Reveal repeat>
+            <FadeInTop>
             <div style={{
               display: 'flex',
               flexWrap: 'wrap',
               flexDirection: 'rows',
-              paddingBottom: '8rem',
+              paddingBottom: '10rem',
               zIndex: 3,
               background: 'white',
             }}>
@@ -70,6 +74,8 @@ const Works = () => {
                 }} href="https://greensourcegroup.co" alt="">Visit Website</a>
               </Container>
             </div>
+            </FadeInTop>
+            </Reveal>
           </div>
 
 
@@ -79,7 +85,11 @@ const Works = () => {
             alignItems: 'center',
             display: 'flex',
             flexDirection: 'row',
+            position: 'relative',
+            background: '#f7f7f7',
           }} className="work-header">
+            <Reveal repeat>
+              <SlideRight>
             <img src={sotimeGif} alt="sotime"
               style={{
                 objectFit: 'cover',
@@ -87,17 +97,21 @@ const Works = () => {
                 width: '100%',
               }}
             />
+            </SlideRight>
+            </Reveal>
           </div>
           <div className="grid-works-reverse" style={{
             maxWidth: '1220px',
             padding: '0 2.5rem',
           }}>
+            <Reveal repeat>
+            <FadeInTop>
             <div style={{
               display: 'flex',
               flexWrap: 'wrap',
               flexDirection: 'rows',
-              paddingBottom: '8rem',
-              zIndex: 1,
+              paddingBottom: '10rem',
+              zIndex: 3,
               background: 'white',
             }}>
               <Container style={{
@@ -122,6 +136,8 @@ const Works = () => {
                 }} href="https://sotime.co" alt="">Visit Website</a>
               </Container>
             </div>
+            </FadeInTop>
+            </Reveal>
             <div className="muted"></div>
           </div>
 
@@ -131,14 +147,20 @@ const Works = () => {
             alignItems: 'center',
             display: 'flex',
             flexDirection: 'row',
+            position: 'relative',
+            background: '#f7f7f7',
           }} className="work-header">
-            <img src={mgtGif} alt="mgt"
-              style={{
-                objectFit: 'cover',
-                objectPosition: '50% 50%',
-                width: '100%',
-              }}
-            />
+            <Reveal repeat>
+              <SlideLeft>
+              <img src={mgtGif} alt="mgt"
+                style={{
+                  objectFit: 'cover',
+                  objectPosition: '50% 50%',
+                  width: '100%',
+                }}
+              />
+              </SlideLeft>
+            </Reveal>
           </div>
 
           <div className="grid-works" style={{
@@ -146,12 +168,14 @@ const Works = () => {
             padding: '0 2.5rem',
           }}>
             <div className="muted"></div>
+            <Reveal repeat>
+            <FadeInTop>
             <div style={{
                 display: 'flex',
                 flexWrap: 'wrap',
                 flexDirection: 'rows',
                 paddingBottom: '8rem',
-                zIndex: 1,
+                zIndex: 3,
                 background: 'white',
               }}>
               <Container style={{
@@ -174,6 +198,8 @@ const Works = () => {
                 }} href="https://felixkwan.github.io/mgt" alt="">Visit Website</a>
               </Container>
             </div>
+            </FadeInTop>
+            </Reveal>
           </div>
 
         </section>
