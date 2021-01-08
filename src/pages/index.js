@@ -12,6 +12,7 @@ import About from "../components/about"
 import Footer from "../components/footer"
 import Business from "../components/business"
 import Contact from "../components/contact"
+import SlideLeft from "../components/slideLeft"
 
 import "./main.scss"
 
@@ -38,9 +39,10 @@ const IndexPage = () => {
           minHeight: '100vh',
           gridTemplateRows: 'fit-content auto',
           background: '#f9f9f9',
+          position: 'relative',
         }}>
-          
-          <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+          <SlideLeft />
+          <Header/>
           <div style={{
           }}>
             <div style={{
@@ -55,14 +57,14 @@ const IndexPage = () => {
                 flexShrink: 1,
               }}>
 
-                <Reveal repeat>
+                <Reveal>
                   <Tween from={{ text: 'vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.'}}
                    to={{ text: 'We are a Hong Kong based design & development Team. We make web design, branding & Value.' }}
                    ease={x =>
                     x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                   }
                    duration={1.75}
-                   delay={.75}>
+                   delay={1.5}>
                     <span className="index-heading" style={{
                       maxWidth: '768px',
                     }}>
@@ -74,6 +76,7 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
+        
       <Business/>
       <Works/>
       <Brands/>

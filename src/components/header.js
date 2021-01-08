@@ -4,11 +4,10 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { Reveal, Tween } from 'react-gsap'
 import { gsap } from 'gsap';
 import { TextPlugin } from 'gsap/TextPlugin'
-import PropTypes from "prop-types"
 
 gsap.registerPlugin(TextPlugin);
 
-const Header = ({ siteTitle }) => {
+const Header = () => {
 
   return(
   <>
@@ -31,14 +30,14 @@ const Header = ({ siteTitle }) => {
               letterSpacing: '-2px',
               padding: '.5rem',
             }}>
-              <Reveal repeat>
+              <Reveal>
                 <Tween from={{ text: '//////'}}
                  to={{ text: 'levelfive' }}
                  ease={x =>
                   x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                 }
                  duration={1.75}
-                 delay={.5}>
+                 delay={1.5}>
                   <span></span>
                 </Tween>
               </Reveal>
@@ -49,14 +48,14 @@ const Header = ({ siteTitle }) => {
             <AnchorLink to='/#works' title="works"
               className="navbar-item"
             >
-              <Reveal repeat>
+              <Reveal>
                 <Tween from={{ text: '//////'}}
                  to={{ text: 'Work' }}
                  ease={x =>
                   x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                 }
                  duration={1.75}
-                 delay={.5}>
+                 delay={1.5}>
                   <span></span>
                 </Tween>
               </Reveal>
@@ -64,14 +63,14 @@ const Header = ({ siteTitle }) => {
             <AnchorLink to='/#about' title="about"
               className="navbar-item"
             >
-              <Reveal repeat>
+              <Reveal>
                 <Tween from={{ text: '//////'}}
                  to={{ text: 'About' }}
                  ease={x =>
                   x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                 }
                  duration={1.75}
-                 delay={.5}>
+                 delay={1.5}>
                   <span></span>
                 </Tween>
               </Reveal>
@@ -79,14 +78,14 @@ const Header = ({ siteTitle }) => {
             <AnchorLink to='/#contact' title="contact"
               className="navbar-item"
             >
-              <Reveal repeat>
+              <Reveal>
                 <Tween from={{ text: '//////'}}
                  to={{ text: 'Contact' }}
                  ease={x =>
                   x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                 }
                  duration={1.75}
-                 delay={.5}>
+                 delay={1.5}>
                   <span></span>
                 </Tween>
               </Reveal>
@@ -105,13 +104,5 @@ const Header = ({ siteTitle }) => {
     </header>
   </>
 )}
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

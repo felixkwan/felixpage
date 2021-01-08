@@ -4,7 +4,7 @@ import groundGif from "../images/pixel-ground.gif"
 import mgtGif from "../images/pixel-mgt.gif"
 import sotimeGif from "../images/pixel-sotime.gif"
 import { Reveal } from 'react-gsap';
-import FadeIn from "../components/fadeIn"
+import SlideLeft from "../components/slideLeft"
 
 const Works = () => {
 
@@ -16,15 +16,16 @@ const Works = () => {
           paddingTop: '3rem',
           paddingBottom: '1rem',
         }}>
-          <Reveal trigger={<div className="is-reveal" />}>
-          <FadeIn>
           <div style={{
             maxHeight: '520px',
             overflow: 'hidden',
             alignItems: 'center',
             display: 'flex',
             flexDirection: 'row',
+            position: 'relative',
           }} className="work-header">
+            <Reveal repeat>
+            <SlideLeft>
             <img src={groundGif} alt="gsp"
               style={{
                 objectFit: 'cover',
@@ -32,9 +33,10 @@ const Works = () => {
                 width: '100%',
               }}
             />
+            </SlideLeft>
+            </Reveal>
           </div>
-          </FadeIn>
-          </Reveal>
+          
           <div className="grid-works" style={{
             maxWidth: '1220px',
             padding: '0 2.5rem',
@@ -45,7 +47,7 @@ const Works = () => {
               flexWrap: 'wrap',
               flexDirection: 'rows',
               paddingBottom: '8rem',
-              zIndex: 1,
+              zIndex: 3,
               background: 'white',
             }}>
               <Container style={{
