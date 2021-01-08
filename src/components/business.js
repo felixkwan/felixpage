@@ -15,7 +15,7 @@ const Business = () => {
         <div style={{
         }}>
           <section id="business" style={{
-              paddingBottom: '8rem',
+              paddingBottom: '6rem',
           }}>
             <div className="has-border-top">
                 <h2>Expertise</h2>
@@ -26,10 +26,10 @@ const Business = () => {
                 <div className="has-border-top-thin mr-2-widescreen mb-2-touch">
                     <h4>Design</h4>
                 </div>
-                <div className="has-border-top">
+                <div className="has-border-top-thin">
                     <h3>Website and Graphic Design</h3>
                     <p>
-                      Making
+                    We provide creative work that accurately approaches your target in business. To create and maintain a standard of excellence, we collaborate with product management and engineering to define and implement innovative solutions for the product direction, visuals and experience. 
                     </p>
                 </div>
             </div>
@@ -39,10 +39,10 @@ const Business = () => {
                 <div className="has-border-top-thin mr-2-widescreen mb-2-touch">
                     <h4>Technology</h4>
                 </div>
-                <div className="has-border-top">
+                <div className="has-border-top-thin">
                     <h3>Website Development</h3>
                     <p>
-                      Making
+                    We support industry standard and integrate your digital solutions. As for traditional companies, our team would simplify the development to offer better and affordable package.
                     </p>
                 </div>
             </div>
@@ -52,10 +52,10 @@ const Business = () => {
                 <div className="has-border-top-thin mr-2-widescreen mb-2-touch">
                     <h4>E-commerce</h4>
                 </div>
-                <div className="has-border-top">
+                <div className="has-border-top-thin">
                     <h3>Custom Store Theme</h3>
                     <p>
-                      Making
+                     We help new and established store from around the world to succeed and grow on the platform through dedicate design and development.
                     </p>
                 </div>
             </div>
@@ -66,10 +66,10 @@ const Business = () => {
                 <div className="has-border-top-thin mr-2-widescreen mb-2-touch">
                     <h4>Strategy</h4>
                 </div>
-                <div className="has-border-top">
+                <div className="has-border-top-thin">
                     <h3>Branding</h3>
                     <p>
-                      Making
+                      We help brands expand their market and explore values by focusing on key customer. We would clarify the message you sent to the public. Less is more.
                     </p>
                 </div>
             </div>
