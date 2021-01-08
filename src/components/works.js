@@ -26,7 +26,7 @@ const Works = () => {
             position: 'relative',
             background: '#f7f7f7',
           }} className="work-header">
-            <Reveal repeat>
+            <Reveal>
             <SlideLeft>
             <img src={groundGif} alt="gsp"
               style={{
@@ -44,7 +44,7 @@ const Works = () => {
             padding: '0 2.5rem',
           }}>
             <div className="muted"></div>
-            <Reveal repeat>
+            <Reveal>
             <FadeInTop>
             <div style={{
               display: 'flex',
@@ -88,7 +88,7 @@ const Works = () => {
             position: 'relative',
             background: '#f7f7f7',
           }} className="work-header">
-            <Reveal repeat>
+            <Reveal>
               <SlideRight>
             <img src={sotimeGif} alt="sotime"
               style={{
@@ -104,7 +104,7 @@ const Works = () => {
             maxWidth: '1220px',
             padding: '0 2.5rem',
           }}>
-            <Reveal repeat>
+            <Reveal>
             <FadeInTop>
             <div style={{
               display: 'flex',
@@ -150,7 +150,7 @@ const Works = () => {
             position: 'relative',
             background: '#f7f7f7',
           }} className="work-header">
-            <Reveal repeat>
+            <Reveal>
               <SlideLeft>
               <img src={mgtGif} alt="mgt"
                 style={{
@@ -168,7 +168,7 @@ const Works = () => {
             padding: '0 2.5rem',
           }}>
             <div className="muted"></div>
-            <Reveal repeat>
+            <Reveal>
             <FadeInTop>
             <div style={{
                 display: 'flex',

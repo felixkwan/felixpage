@@ -67,6 +67,7 @@ const IndexPage = () => {
                    delay={1.5}>
                     <span className="index-heading" style={{
                       maxWidth: '768px',
+                      fontWeight: 700,
                     }}>
                     </span>
                   </Tween>

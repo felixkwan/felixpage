@@ -98,14 +98,14 @@ html {
     display: grid;
     grid-template-columns: calc(35% - 2.5rem) auto;
     gap: 2.5rem;
-    margin: -4rem auto 0;
+    margin: -8rem auto 0;
 }
 
 .grid-works-reverse {
     display: grid;
     grid-template-columns: auto calc(35% - 2.5rem);
     gap: 2.5rem;
-    margin: -4rem auto 0;
+    margin: -8rem auto 0;
 }
 
 .mr-2-widescreen {
