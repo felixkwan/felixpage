@@ -13,13 +13,8 @@ const Brands = () => {
 
   return (
     <>
-      <div style={{
-            maxWidth: '1220px',
-            margin: '2.5rem auto',
-          }}>
+      <div className="wrapper">
             <div style={{
-                paddingLeft: '2.5rem',
-                paddingRight: '2.5rem',
                 paddingBottom: '5.5rem',
             }}>
                 <div style={{

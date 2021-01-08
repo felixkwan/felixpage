@@ -6,14 +6,9 @@ const About = () => {
 
   return (
     <>
-        <div style={{
-            maxWidth: '1220px',
-            margin: '0 auto',
-        }}>
+        <div className="wrapper">
             <section id="about" style={{
             paddingTop:' 1.5rem',
-            paddingLeft: '2.5rem',
-            paddingRight: '2.5rem',
             paddingBottom: '8rem',
             }}>
                 <div className="about-vision">
