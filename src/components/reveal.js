@@ -6,9 +6,9 @@ const fadeHeadline = () => {
     return(
         <>
         <Reveal repeat>
-        <Tween from={{ opacity: 0 }} duration={2}>
-            <h3>This headline is fading in</h3>
-        </Tween>
+            <Tween from={{ opacity: 0 }} duration={2}>
+                <h3>This headline is fading in</h3>
+            </Tween>
         </Reveal>
         </>
     )

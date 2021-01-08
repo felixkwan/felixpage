@@ -61,7 +61,8 @@ const IndexPage = () => {
                    ease={x =>
                     x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                   }
-                   duration={1.75}>
+                   duration={1.75}
+                   delay={.75}>
                     <span className="index-heading" style={{
                       maxWidth: '768px',
                     }}>

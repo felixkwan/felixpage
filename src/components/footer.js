@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 
 const Footer = () => (
@@ -22,13 +21,13 @@ const Footer = () => (
             <div>
               © {new Date().getFullYear()} levelfive, Built with
               {` `}
-              <a href="https://www.gatsbyjs.com" style={{
+              <a href="https://www.gatsbyjs.com" aria-label="Mute volume" style={{
                 paddingBottom: '.5rem',
                 borderBottom: '2px solid #3a3a3a'
               }}>Gatsby</a>
             </div>
             <div>
-              <a href="https://levelfivedesign.github.io/"><i className="nes-icon github"></i></a>
+              <a href="https://levelfivedesign.github.io/" aria-label="Mute volume"><i className="nes-icon github"></i></a>
             </div>
         </footer>
       </div>
