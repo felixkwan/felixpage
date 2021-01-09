@@ -18,7 +18,6 @@ const Works = () => {
           paddingBottom: '1rem',
         }}>
           <div style={{
-            maxHeight: '520px',
             overflow: 'hidden',
             alignItems: 'center',
             display: 'flex',
@@ -80,7 +79,6 @@ const Works = () => {
 
 
           <div style={{
-            maxHeight: '520px',
             overflow: 'hidden',
             alignItems: 'center',
             display: 'flex',
@@ -142,7 +140,6 @@ const Works = () => {
           </div>
 
           <div style={{
-            maxHeight: '520px',
             overflow: 'hidden',
             alignItems: 'center',
             display: 'flex',

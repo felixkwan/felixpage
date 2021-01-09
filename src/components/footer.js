@@ -5,12 +5,9 @@ const Footer = () => (
     <div style={{
       backgroundColor: '#f7f7f7',
     }}>
-      <div style={{
-        maxWidth: '1220px',
-        margin: '0 auto',
-      }}>
+      <div className="wrapper">
         <footer className="footer" style={{
-            padding: '3.5rem 2.5rem 5rem',
+            padding: '3.5rem 0 5rem',
             fontSize: '.8rem',
             color: '#3a3a3a',
             display: 'flex',
