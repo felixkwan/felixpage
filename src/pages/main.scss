@@ -9,7 +9,6 @@ html {
     font-family: 'Press Start 2P', cursive;
     box-sizing: border-box;
     overflow-wrap: break-word;
-    overflow-y: scroll;
 
     ::selection { 
         background: $primary;
@@ -20,6 +19,7 @@ html {
         margin: 0;
         padding: 0;
         line-height: 1.6;
+        overflow-y: scroll;
     }
 
     a {
