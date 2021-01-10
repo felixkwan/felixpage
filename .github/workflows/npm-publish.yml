@@ -25,6 +25,6 @@ jobs:
           rm -rf /home/runner/work/web/*
           cp -R public/* /home/runner/work/web/
           cd /home/runner/work/web
-          git add .
+          git add --all
           git commit -m "chore: add new dist folder"
-          git push
+          git push -u origin main
