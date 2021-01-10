@@ -108,7 +108,7 @@ const About = () => {
                             paddingBottom: '.5rem',
                         }}>Elvis Chan</h4>
                         <p className="nes-balloon from-left nes-pointer">
-                            Our digital solutions look smell good. Whether you’re a large company or an  individual, levelfive digital products are well designed for work and playful.
+                            Our digital products look smell good. Whether you’re a large company or an  individual, levelfive digital products are well designed for work and playful.
                         </p>
                         <div className="muted"></div>
                         <h5>Security</h5>
