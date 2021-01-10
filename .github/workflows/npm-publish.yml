@@ -1,0 +1,31 @@
+name: push to s3
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Build
+        run: |
+          yarn
+          yarn build
+      - run: git config --global user.email "kwanfu101@gmail.com"
+      - run: git config --global user.name "Felix Kwan"
+      - run: |
+          git clone --depth 1 https://x-access-token:${{ secrets.PERSONAL_ACCRESS_TOKEN }}@github.com/felixkwan/lv5.github.io.git /home/runner/work/web
+          rm -rf /home/runner/work/web/*
+          cp -R public/* /home/runner/work/web/
+          cd /home/runner/work/web
+          git add .
+          git commit -m "chore: add new dist folder"
+          git push
