@@ -21,10 +21,10 @@ jobs:
       - run: git config --global user.email "5702858+felixkwan@users.noreply.github.com"
       - run: git config --global user.name "Felix Kwan"
       - run: |
-          git clone --depth 1 https://x-access-token:${{ secrets.PERSONAL_ACCRESS_TOKEN }}@github.com/felixkwan/lv5.github.io.git /home/runner/work/web
+          git clone --depth 1 https://x-access-token:${{ secrets.PERSONAL_ACCRESS_TOKEN }}@github.com/felixkwan/felixkwan.github.io.git /home/runner/work/web
           rm -rf /home/runner/work/web/*
           cp -R public/* /home/runner/work/web/
           cd /home/runner/work/web
           git add --all
           git commit -m "chore: add new dist folder"
-          git push -u origin master
+          git push
