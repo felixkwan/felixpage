@@ -69,7 +69,7 @@ const Works = () => {
                   borderBottom: '3px solid #FD5825',
                   color: '#FD5825',
                   padding: '.5rem 0',
-                }} href="https://greensourcegroup.co" alt="">Visit Website</a>
+                }} href="https://greensourcegroup.co" target="_blank">Visit Website</a>
               </Container>
             </div>
             </FadeInTop>
@@ -129,7 +129,7 @@ const Works = () => {
                   borderBottom: '3px solid #FD5825',
                   color: '#FD5825',
                   padding: '.5rem 0',
-                }} href="https://www.behance.net/gallery/111178531/SoTime" alt="">Visit Website</a>
+                }} href="https://www.behance.net/gallery/111178531/SoTime" target="_blank">Visit Website</a>
               </Container>
             </div>
             </FadeInTop>
@@ -189,7 +189,7 @@ const Works = () => {
                   borderBottom: '3px solid #FD5825',
                   color: '#FD5825',
                   padding: '.5rem 0',
-                }} href="https://felixkwan.github.io/mgt" alt="">Visit Website</a>
+                }} href="https://felixkwan.github.io/mgt" target="_blank">Visit Website</a>
               </Container>
             </div>
             </FadeInTop>

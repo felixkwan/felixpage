@@ -22,7 +22,7 @@ const About = () => {
                         </div>
                         <div className="has-border-top-thin">
                             <p>
-                                We believe in the magic of think different. It is always helpful to explore unexpected answers.We are interested in tech, culture and crafting table. 
+                                I believe in the magic of think different. It is always helpful to explore unexpected answers.I am interested in tech, culture and crafting table. 
                             </p>
                         </div>
                     </div>
@@ -35,14 +35,14 @@ const About = () => {
                         </div>
                         <div className="has-border-top-thin">
                             <p>
-                                Assemble a team of passionate designer and developers with commitment to search for excellence in design. Together with our clients, we shape the digital experience.
+                                A passionate designer and developers with commitment to search for excellence in design. Together with our clients, we shape the digital experience.
                             </p>
                         </div>
                     </div>
                 </div>
 
                 <div className="has-border-top">
-                    <h2>Team</h2>
+                    <h2>About</h2>
                 </div>
 
                 <div className="grid-6-4" style={{

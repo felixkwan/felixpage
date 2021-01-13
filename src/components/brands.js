@@ -78,7 +78,7 @@ const Brands = () => {
 
                         <Reveal>
                             <Tween from={{ text: '////// ////////////// //////////// ////////////// /////////////// //////// /////////// ///////'}}
-                            to={{ text: 'We have created the brand logo for Monochrome who shoots elegantvphotos. All they need is a fashionable typography and it starts at the shape of shutter button.' }}
+                            to={{ text: 'We have created the brand logo with Monochrome who shoots elegantvphotos. All they need is a fashionable typography and it starts at the shape of shutter button.' }}
                             ease={x =>
                                 x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                             }
@@ -89,6 +89,26 @@ const Brands = () => {
                                 }}>
                                 </span>
                             </Tween>
+                        </Reveal>
+                        <Reveal trigger={<div style={{ marginTop: '1.5rem'}}/>}>
+                        <a className="" style={{
+                                borderBottom: '3px solid #FD5825',
+                                color: '#FD5825',
+                                padding: '.5rem 0',
+                                }} href="https://www.behance.net/gallery/77681689/Monochrome-Photography" target="_blank">
+                                    <Tween from={{ text: '///////// //////'}}
+                                    to={{ text: 'Check this' }}
+                                    ease={x =>
+                                        x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
+                                    }
+                                    duration={.75}
+                                    delay={.25}>
+                                        <span style={{
+                                            fontSize: '.85rem',
+                                        }}>
+                                        </span>
+                                    </Tween>
+                            </a>
                         </Reveal>
                     </div>
                     
@@ -133,7 +153,7 @@ const Brands = () => {
                             <h5><span style={{ color: '#FD5825', marginRight: '.25rem'}}>#</span>Airbnb</h5>
                         </div>
 
-                        <Reveal>
+                        <Reveal trigger={<div/>}>
                             <Tween from={{ text: '////// ////////////// //////////// ////////////// /////////////// //////// /////////// /////// ////// //////'}}
                             to={{ text: 'DH is an airbnb host. We have a great time to stay there and host is nice. The relationship between host and visitors is an invisible linkage and keep them close.' }}
                             ease={x =>
@@ -146,6 +166,26 @@ const Brands = () => {
                                 }}>
                                 </span>
                             </Tween>
+                        </Reveal>
+                        <Reveal trigger={<div style={{ marginTop: '1.5rem'}}/>}>
+                        <a className="" style={{
+                                borderBottom: '3px solid #FD5825',
+                                color: '#FD5825',
+                                padding: '.5rem 0',
+                                }} href="https://www.behance.net/gallery/111178603/Deerhorn" target="_blank">
+                                    <Tween from={{ text: '///////// //////'}}
+                                    to={{ text: 'Check this' }}
+                                    ease={x =>
+                                        x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
+                                    }
+                                    duration={.75}
+                                    delay={.25}>
+                                        <span style={{
+                                            fontSize: '.85rem',
+                                        }}>
+                                        </span>
+                                    </Tween>
+                            </a>
                         </Reveal>
                     </div>
 
