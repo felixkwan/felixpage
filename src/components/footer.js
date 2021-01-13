@@ -10,21 +10,19 @@ const Footer = () => (
             padding: '3.5rem 0 5rem',
             fontSize: '.8rem',
             color: '#3a3a3a',
-            display: 'flex',
-            flexDirection: 'colum',
-            justifyContent: 'space-between',
-            alignItems: 'center',
           }}>
             <div>
-              © {new Date().getFullYear()} levelfive, Built with
+              © {new Date().getFullYear()} felixkwan, Built with
               {` `}
               <a href="https://www.gatsbyjs.com" aria-label="Mute volume" style={{
                 paddingBottom: '.5rem',
                 borderBottom: '2px solid #3a3a3a'
               }}>Gatsby</a>
             </div>
-            <div>
-              <a href="https://levelfivedesign.github.io/" aria-label="Mute volume"><i className="nes-icon github"></i></a>
+            <div className="sns">
+            <a href="mailto:knfix101@gmail.com" aria-label="Mute volume" style={{ marginRight: '1.5rem',}}><i className="nes-icon gmail"></i></a>
+              <a href="https://www.linkedin.com/in/felixkwan101/" aria-label="Mute volume" style={{ marginRight: '1.5rem',}}><i className="nes-icon linkedin"></i></a>
+              <a href="https://github.com/felixkwan" aria-label="Mute volume"><i className="nes-icon github"></i></a>
             </div>
         </footer>
       </div>

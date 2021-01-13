@@ -26,8 +26,4 @@ const SlideLeft = ({children}) => {
     )
 }
 
-SlideLeft.propTypes = {
-    children: PropTypes.node.isRequired,
-}
-
 export default SlideLeft

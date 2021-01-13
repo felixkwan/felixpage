@@ -40,7 +40,6 @@ const Works = () => {
           
           <div className="grid-works" style={{
             maxWidth: '1220px',
-            padding: '0 2.5rem',
           }}>
             <div className="muted"></div>
             <Reveal>
@@ -100,7 +99,6 @@ const Works = () => {
           </div>
           <div className="grid-works-reverse" style={{
             maxWidth: '1220px',
-            padding: '0 2.5rem',
           }}>
             <Reveal>
             <FadeInTop>
@@ -131,7 +129,7 @@ const Works = () => {
                   borderBottom: '3px solid #FD5825',
                   color: '#FD5825',
                   padding: '.5rem 0',
-                }} href="https://sotime.co" alt="">Visit Website</a>
+                }} href="https://www.behance.net/gallery/111178531/SoTime" alt="">Visit Website</a>
               </Container>
             </div>
             </FadeInTop>
@@ -162,7 +160,6 @@ const Works = () => {
 
           <div className="grid-works" style={{
             maxWidth: '1220px',
-            padding: '0 2.5rem',
           }}>
             <div className="muted"></div>
             <Reveal>
