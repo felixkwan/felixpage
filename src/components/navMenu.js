@@ -46,12 +46,13 @@ const NavMenu = () => {
                 </Tween>
               </Reveal>
             </AnchorLink>
-            <AnchorLink to='/#contact' title="contact"
+            <a target="_blank" rel="noopener noreferrer"
+                href="https://kwanfushing.tumblr.com"
               className="navbar-item"
             >
               <Reveal>
                 <Tween from={{ text: '//////'}}
-                to={{ text: 'Contact' }}
+                to={{ text: 'Blog' }}
                 ease={x =>
                   x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                 }
@@ -60,7 +61,7 @@ const NavMenu = () => {
                   <span style={{color: 'white'}}></span>
                 </Tween>
               </Reveal>
-            </AnchorLink>
+            </a>
           </Container>
     </>
   ) 
