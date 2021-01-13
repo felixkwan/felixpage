@@ -54,7 +54,7 @@ const IndexPage = () => {
 
                 <Reveal>
                   <Tween from={{ text: 'vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.'}}
-                   to={{ text: 'We are a Hong Kong based design & development Team. We make web design, branding & Value.' }}
+                   to={{ text: 'I am FelixKwan, a Hong Kong based designer & Frontend Developer. I make web design, branding & Value.' }}
                    ease={x =>
                     x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                   }
@@ -76,7 +76,6 @@ const IndexPage = () => {
       <Works/>
       <Brands/>
       <About/>
-      <Contact/>
       <Footer/>
     </Layout>
     </>

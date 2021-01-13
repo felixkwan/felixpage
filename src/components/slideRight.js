@@ -26,8 +26,4 @@ const SlideRight = ({children}) => {
     )
 }
 
-SlideRight.propTypes = {
-    children: PropTypes.node.isRequired,
-}
-
 export default SlideRight
