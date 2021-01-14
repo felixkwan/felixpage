@@ -35,7 +35,7 @@ const About = () => {
                         </div>
                         <div className="has-border-top-thin">
                             <p>
-                                A passionate designer and developers with commitment to search for excellence in design. Together with our clients, we shape the digital experience.
+                                A passionate designer and developer with commitment to search for excellence in design. Together with our clients, we shape the digital experience.
                             </p>
                         </div>
                     </div>
