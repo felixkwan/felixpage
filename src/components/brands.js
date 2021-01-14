@@ -78,7 +78,7 @@ const Brands = () => {
 
                         <Reveal>
                             <Tween from={{ text: '////// ////////////// //////////// ////////////// /////////////// //////// /////////// ///////'}}
-                            to={{ text: 'We have created the brand logo for Monochrome who shoots elegantvphotos. All they need is a fashionable typography and it starts at the shape of shutter button.' }}
+                            to={{ text: 'We have created the brand logo for Monochrome who shoots elegant photos. All they need is a fashionable typography and it starts at the shape of shutter button.' }}
                             ease={x =>
                                 x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2
                             }
