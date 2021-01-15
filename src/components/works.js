@@ -69,7 +69,7 @@ const Works = () => {
                   borderBottom: '3px solid #FD5825',
                   color: '#FD5825',
                   padding: '.5rem 0',
-                }} href="https://greensourcegroup.co" target="_blank">Visit Website</a>
+                }} href="https://www.greensourcegroup.co" target="_blank">Visit Website</a>
               </Container>
             </div>
             </FadeInTop>
