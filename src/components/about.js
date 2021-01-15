@@ -57,7 +57,7 @@ const About = () => {
                             paddingBottom: '.5rem',
                         }}>Felix Kwan</h4>
                         <p className="nes-balloon from-left nes-pointer">
-                            People are increasingly joining digital lifestyles. They need digital solutions that inspire ideas and create value. Find us. Whether you’re a large company or an  individual, My digital products are well designed for work and playful.\('x')/
+                            People are increasingly joining digital lifestyles. They need digital solutions that inspire ideas and create value. Feel free to find me. Whether you’re a large company or an  individual, My digital products are well designed for work and playful.\('x')/
                         </p>
                         <div className="muted"></div>
                         <h5>Creativity</h5>
