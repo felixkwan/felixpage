@@ -73,7 +73,7 @@ const About = () => {
                             <i className="nes-icon is-medium star"></i>
                             <i className="nes-icon is-medium star"></i>
                             <i className="nes-icon is-medium star"></i>
-                            <i className="nes-icon is-medium star is-transparent"></i>
+                            <i className="nes-icon is-medium star is-half"></i>
                             <i className="nes-icon is-medium star is-transparent"></i>
                         </Container>
                         </div>
